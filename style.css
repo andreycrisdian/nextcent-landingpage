@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    padding: 12px 100px;
+    gap: 43px;
+}
+
+nav{
+    display: flex;
+    gap: 23px;
+    flex-direction: row;
+}
+
+.navi{
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    gap: 6px;
+    background-color: #4CAF4F;
+    height: 37px;
+    padding: 10px 23px;
+}
